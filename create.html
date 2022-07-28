@@ -1,0 +1,124 @@
+<html>
+    <head>
+        <link href='https://fonts.googleapis.com/css?family=Nunito' rel='stylesheet'>
+        <title> Create Employee </title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <!-- <div class="logo"> -->
+                <img src="kv logo.png" >
+            <!-- </div> -->
+        </header>
+        <div class="main" >
+            <!-- <aside style="background-color: white;">
+                <div class="side" style="height: 60px;">
+                    <img src="List.png" alt="">
+                    <ul>
+                        <li><a href="">Employee list</a></li>
+                    </ul>
+                </div>
+            </aside> -->
+            <nav>
+                <div class="side" >
+                    <a href="" >
+                        <div class="icon">
+                            <img src="List.png" alt="">
+                        </div>
+                        <p style="margin:6px; color: white;"><b>Employee list</b></p>
+                    </a>
+                </div>
+            </nav>
+            <main>
+                <section>
+                    <!-- <p style="vertical-align: middle;" class="heading"> Create Employee </p> -->
+                    <div class="heading">
+                        <h1>Create Employee</h1>
+                    </div>
+                </section>
+                <section>
+                    <div class="form">
+                        <div class="input-form">
+                            <label class="attr">Employee Name</label>
+                            <input type="text" placeholder="Employee Name">
+                        </div>
+
+                        <div class="input-form">
+                            <label class="attr"> Employee ID </label>
+                            <input type="text" placeholder="Employee ID">
+                        </div>
+
+                        <div class="input-form">
+                            <label class="attr"> Joining Date </label>
+                            <input type="text" placeholder="Joining Date">
+                        </div>
+
+                        <div class="input-form">
+                            <label class="attr"> Role </label>
+                            <select name="role" required>
+                                <option value="" disabled selected hidden>Choose Role</option>
+                                <option value="Backend">Backend</option>
+                                <option value="Frontend">Frontend</option>
+                                <option value="Full Stack">Full Stack</option>
+                            </select>
+                        </div>
+
+                        <div class="input-form">
+                            <label class="attr"> Status </label>
+                            <select name="status" required>
+                                <option value="" disabled selected hidden>Status</option>
+                                <option value="xxx">xxx</option>
+                                <option value="yyy">yyy</option>
+                            </select>
+                        </div>
+
+                        <div class="input-form">
+                            <label class="attr"> Experience </label>
+                            <input type="text" placeholder="Experience">
+                        </div>
+
+                    <div class="input-form">
+                        <label class="attr"> Address </label>
+                        <input type="text" placeholder="Address">
+                    </div>
+
+                    <div class="input-form">
+                        <label> Upload ID Proof </label>
+                            <!-- <div class="inputfile-box">
+                                <input type="file" class="inputfile">
+                                <label for="file">
+                              <!-- <span class="file-button">
+                                Browse
+                              </span> -->
+                                <!-- <button class="file-btn"> Browse </button>
+                            </label>
+                            </div> --> 
+                            <div class="inputfile-box">
+                                <input type="file" id="file" class="inputfile" >
+                                <label class="holder" for="file">
+                                  <!-- <span id="file-name" class="file-box"></span> -->
+                                  <span style="text-align: center;">Choose file</span>
+                                  <span class="file-button">
+                                    Browse
+                                  </span>
+                                </label>
+                            </div>
+                    </div>
+                    <div class="btn-div">
+                        <button class="btn1" onclick="changecolor()">Create</button>
+                        <button class="btn2" >Cancel</button>
+                    </div>
+                </div>
+                </section>
+            </main>
+        </div>
+        <script>
+            document.getElementById('blue').onclick = changeColor;   
+        
+            function changeColor() {
+                document.getElementById("blue").style.background='green';
+                return false;
+            }   
+        </script>
+    </body>
+</html>

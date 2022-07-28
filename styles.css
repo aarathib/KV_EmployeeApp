@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+    display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 5px;
+}
+
+header{
+    background-color: #FDFDFD ;
+    padding: 20px 0 20px 50px;
+}
+
+/* .logo{
+    width: 184px;
+    height: 77px;
+    background: #E2E8FA ;
+    opacity: 0.2;
+    padding: 20px 0 20px 50px;
+} */
+
+li{
+    list-style: none;
+    padding: 5px;
+}
+
+body{
+    background-color: #FAFAFA;
+    opacity: 1;
+}
+
+.side{
+    background-color: #03AEEE;
+    border-radius: 50px 0px 0px 50px;
+    height: 60px;
+    
+    margin-right: 0;
+    margin-left: 10px;
+    padding: 6px 10px;
+
+    /* display: flex; 
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center; */
+    box-sizing: border-box;
+}
+
+/* aside{
+    width: 15%;
+    height: 100vh; 
+    margin-top: 0;
+    background-color: white;
+} */
+nav{
+    height: 100vh;
+    width:15%;
+    background-color: #FFFFFF;
+    padding: 30px 0px;
+    box-sizing: border-box;
+}
+
+.icon{
+border-radius: 50%;
+background-color: white;
+padding: 5px; 
+margin: 6px;;
+/* width: 15px; */
+}
+
+main{
+    width: 85%;
+    height: 100%;
+    padding: 5px 5px;
+    background-color: #FAFAFA;
+    align-self: flex-start;
+    margin: 20px;
+}
+.heading{
+    padding: 35px 15px; 
+    box-sizing: border-box;
+    font:  bold;
+    height:100px;
+    background: #FDFDFD ;
+    box-shadow: 0px 3px 6px #9D9D9D29;
+    border-radius: 10px;
+    opacity: 1;
+}
+
+label{
+    padding: 5px;
+    box-sizing: border-box;
+    /* font: normal normal 600 16px/22px Nunito; */
+}
+input{
+    padding: 5px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    background: #FAFAFA;
+    border: 1px solid #D9D9D9;
+    opacity: 1;
+}
+select{
+    padding: 5px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #FAFAFA ;
+    border: 1px solid #D9D9D9;
+    opacity: 1;
+}
+.main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #fafafa00;
+}
+
+.input-form {
+    width: calc(85%/3);
+    display:flex;
+    flex-direction:column; 
+    margin: 10px 5px;
+    padding: 5px 5px;
+}
+
+.form{
+    margin-top: 15px;
+    display:flex;
+    flex-direction:row; 
+    flex-wrap: wrap;
+    background-color: #FDFDFD ;
+    box-shadow: 0px 3px 6px #9D9D9D29;
+    border-radius: 10px;
+    opacity: 1;
+    height: 439px;
+}
+
+/* .inputfile{
+    display: none;
+}
+
+
+.file-btn{
+    top: 0px;
+    right: 0px;
+} */
+
+.inputfile-box {
+    position: relative;
+    padding: 5px 5px;
+    height: 40px;
+    box-sizing: border-box;
+    border-radius: 8px;
+
+    background: #FAFAFA;
+    border: 1px solid #D9D9D9;
+    opacity: 1;
+  }
+  
+  .inputfile {
+    display: none;
+  }
+  
+  .container {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .file-box {
+    display: inline-block;
+    width: 100%;
+    border: 1px solid;
+    padding: 5px 0px 5px 5px;
+    box-sizing: border-box;
+    height: calc(2rem - 2px);
+  }
+  
+  .file-button {
+    /* background: red; */
+    padding: 5px;
+    position: absolute;
+    border: 1px solid;
+    top: 0px;
+    right: 0px;
+  }
+
+  .btn-div{
+    width: 100%;
+    padding: 10px;
+  }
+
+  button{
+    width: 150px;
+    height: 35px;
+    border-radius: 3px;
+    opacity: 1;
+  }
+.btn1{
+  background: #03AEEE ;
+  box-shadow: 0px 3px 6px #BFEEFF;
+  border: none;
+  color: white; 
+  font-size:medium
+}
+
+.btn2{
+    background: #FFFFFF ;
+    box-shadow: 0px 3px 6px #D9D9D9;
+    border: 1px solid #8A8C8F;
+    color: #8A8C8F; 
+    font-size:medium
+}
+
+.holder{
+    color: #8B8D9D;
+    opacity: 1;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 5px;
+}
